@@ -20,12 +20,16 @@ async def main() -> None:
     print(f"UV index: {weather.ultraviolet.index}")
 
     # Fetch weather forecast for upcoming days.
-    '''for daily in weather:
+    for daily in weather:
       print(daily)
 
       # Each daily forecast has their own hourly forecasts.
       for hourly in daily:
-        print(f' --> {hourly!r}')'''
+        print(f' --> {hourly!r}')
+
+
+    # NEXT STEPS: adjust for loop to fetch weather forecast for one day only
+        # change to output wind
 
 if __name__ == '__main__':
 
