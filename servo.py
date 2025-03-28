@@ -28,5 +28,3 @@ while True:
         my_servo.angle = angle
         time.sleep(0.05)
 
-# to test: rotating at larger angle rotations to see what is ideal for the brush
-
