@@ -10,9 +10,9 @@ SSID = "your_wifi_ssid"
 PASSWORD = "your_wifi_password"
 
 # OpenWeatherMap API Key and URL
-API_KEY = "your_openweathermap_api_key"
+API_KEY = "79f1a66db32bf4aa923aeec9ac148b2a"
 CITY = "Ouarzazate"
-URL = f"http://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={API_KEY}&units=metric"
+URL = f"https://api.openweathermap.org/data/3.0/onecall?lat=30.919&lon=-6.893&exclude=current,minutely,alerts&units=metric&appid=79f1a66db32bf4aa923aeec9ac148b2a"
 
 # Connect to Wi-Fi
 def connect_wifi():
